@@ -1,3 +1,5 @@
+import { movieInterface } from './interfaces/movie-interface'
+
 const movieSample:Object[]=[
   {
     id: 1,
