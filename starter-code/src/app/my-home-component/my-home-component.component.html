@@ -1,3 +1,16 @@
-<p>
-  my-home-component works!
-</p>
+<h3>
+WELCOME TO HOME</h3>
+
+
+<h2>LAS FRASES DE {{nombre}}</h2>
+<div *ngFor="let peli of arrayPelis" class="">
+  <span {{peli.title}}></span>
+  <p>Synopsis</p><span {{peli.synopsis}}></span>
+  <p>Genre</p><span {{peli.genre}}></span>
+  <p>Year</p><span {{peli.year}}></span>
+  <p>Director</p><span {{peli.director}}></span>
+  <p>Actors</p><span {{peli.actors}}></span>
+  <p>Hours</p><span {{peli.hours}}></span>
+  <p>Room</p><span {{peli.room}}></span>
+
+</div>

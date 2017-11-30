@@ -8,11 +8,11 @@ export class CinemaService {
 
 constructor () {}
 
-getMovies(){
-return this.movies;
-}
+  getMovies(){
+  return this.movies;
+  }
 
-getMovie(id){
-return this.movies[id-1];
-}
+  getMovie(id){
+  return this.movies[id-1];
+  }
 }
